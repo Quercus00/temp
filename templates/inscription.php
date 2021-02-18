@@ -21,13 +21,13 @@
             <form class="ins" method="post">
 
                 <label for="email">Enter your email : </label>
-                <input class ="inp" name="email" id="email" type="text" placeholder="email" required>
+                <input class ="inp" name="email" id="email" type="email" placeholder="email" required>
 
                 <label for="password">Enter your password : </label>
                 <input class="inp" type="password" name="password" placeholder="Mot de passe" id="password"   required>
 
                 <label for="password">Confirm your password : </label>
-                <input class ="inp" type="password" name="verif" required>
+                <input class ="inp" type="password" name="verif" placeholder="Confirmer mot de passe"required>
 
               
                 <button class='espace' name="espace">Register </button>
